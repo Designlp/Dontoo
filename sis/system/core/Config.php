@@ -75,7 +75,7 @@ class CI_Config {
 
 			else
 			{
-				$base_url = 'https://laportada.online/sis';
+				$base_url = 'https://laportada.online/sis/';
 			}
 
 			$this->set_item('base_url', $base_url);

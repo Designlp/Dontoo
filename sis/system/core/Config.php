@@ -75,7 +75,7 @@ class CI_Config {
 
 			else
 			{
-				$base_url = 'https://laportada.online/';
+				$base_url = 'http://localhost/';
 			}
 
 			$this->set_item('base_url', $base_url);

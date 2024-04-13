@@ -1,0 +1,60 @@
+:root{
+    --primario: #243ffa;
+}
+body{
+    background: var(--primario);
+    background-image: url(../images/graphic-img-2.png);
+    background-size: cover;
+
+}
+
+.tituloL{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    color: #d4dffb;
+    line-height: 35px;
+}
+
+.btn-Donto{
+    color: #243ffa;
+    background-color: #fff !important;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 50px !important;
+    font-size: 20px !important;
+    padding: 1rem;
+    border: none !important;
+    border-style: none !important;
+}
+
+.btn-Donto:hover{
+    background: #3752ff !important;
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+.box{
+    background: none !important;
+    border: none !important;
+}
+ .contenedorDonto{
+    margin-top: 13%;
+ }
+
+ .text{
+    color: #fff !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    color: #d4dffb !important;
+ }
+
+ input[type="password"], input[type="text"]{
+    width: 100%;
+    border-radius: 50px !important;
+    font-size: 20px !important;
+    padding: 1rem !important;
+ }

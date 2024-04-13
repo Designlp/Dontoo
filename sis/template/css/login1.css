@@ -295,13 +295,13 @@ button:focus.off.login, button:active.off.login, button:hover.off.login {
   font-size: 28px;
   line-height: 45px;
   color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(240, 255, 29, 0.1);
+  background-color: none;
   pointer-events: none;
 }
 
 .box:hover::before {
   color: rgba(255, 255, 255, 0.6);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: none;
 }
 
 .box select option {

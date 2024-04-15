@@ -34,7 +34,7 @@
 
 		<?php include 'page_info.php';?>
 
-        <div class="container-fluid padded adentroPa">
+        <div class="container-fluid padded">
 
             <?php include $this->session->userdata('login_type').'/'.$page_name.'.php';?>
 

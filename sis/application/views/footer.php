@@ -1,5 +1,5 @@
-    <div style="clear:both;color:#aaa; padding:20px;">
+    <div style="clear:both;color:#aaa; padding:20px;" class="bgfooter" >
 
-    	<hr /><center>&copy; <?php echo date ('Y'); ?>Sistema de gestion Hospitalaria - Diego Mercado</center>
+    <center>&copy; <?php echo date ('Y'); ?> Sistema de gestion Hospitalaria - Diego Mercado</center>
 
     </div>

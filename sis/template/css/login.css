@@ -1,5 +1,5 @@
 :root{
-    --primario: #243ffa;
+    --primario: #3E36B0;
 }
 body{
     background: var(--primario);
@@ -17,7 +17,7 @@ body{
 }
 
 .btn-Donto{
-    color: #243ffa;
+    color: var(--primario);
     background-color: #fff !important;
     letter-spacing: 1.5px;
     font-weight: 700;

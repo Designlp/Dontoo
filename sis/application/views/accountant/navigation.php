@@ -16,7 +16,7 @@
 
     	<a href="<?php echo base_url();?>">
 
-        	<img src="<?php echo base_url();?>uploads/hmslg.png"  style="max-height:100px; max-width:100px;"/>
+        	<img class="logopad" src="<?php echo base_url();?>uploads/hmslg.png"  style="max-height:100px; max-width:100px;"/>
 
         </a>
 
@@ -34,7 +34,7 @@
 
 		<li class="<?php if($page_name == 'dashboard')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?accountant/dashboard" >
 
@@ -52,7 +52,7 @@
 
 		<li class="<?php if($page_name == 'manage_invoice')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?accountant/manage_invoice" >
 
@@ -72,7 +72,7 @@
 
 		<li class="<?php if($page_name == 'view_payment')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?accountant/view_payment" >
 
@@ -92,7 +92,7 @@
 
 		<li class="<?php if($page_name == 'manage_profile')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?accountant/manage_profile" >
 

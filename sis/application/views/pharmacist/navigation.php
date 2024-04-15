@@ -16,7 +16,7 @@
 
     	<a href="<?php echo base_url();?>">
 
-        	<img src="<?php echo base_url();?>uploads/hmslg.png"/>
+        	<img class="logopad" src="<?php echo base_url();?>uploads/hmslg.png"/>
 
         </a>
 
@@ -34,7 +34,7 @@
 
 		<li class="<?php if($page_name == 'dashboard')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?pharmacist/dashboard" >
 
@@ -52,7 +52,7 @@
 
 		<li class="<?php if($page_name == 'manage_medicine_category')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?pharmacist/manage_medicine_category" >
 
@@ -70,7 +70,7 @@
 
 		<li class="<?php if($page_name == 'manage_medicine')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?pharmacist/manage_medicine" >
 
@@ -88,7 +88,7 @@
 
 		<li class="<?php if($page_name == 'manage_prescription')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?pharmacist/manage_prescription" >
 
@@ -106,7 +106,7 @@
 
 		<li class="<?php if($page_name == 'manage_profile')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?pharmacist/manage_profile" >
 

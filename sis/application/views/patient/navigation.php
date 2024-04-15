@@ -15,8 +15,8 @@
     <div style="text-align:center;">
 
     	<a href="<?php echo base_url();?>">
-
-        	<img src="<?php echo base_url();?>uploads/hmslg.png"  style="max-height:100px; max-width:100px;"/>
+ 
+        	<img class="logopad" src="<?php echo base_url();?>uploads/hmslg.png"  style="max-height:100px; max-width:100px;"/>
 
         </a>
 
@@ -34,7 +34,7 @@
 
 		<li class="<?php if($page_name == 'dashboard')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/dashboard" >
 
@@ -52,7 +52,7 @@
 
 		<li class="<?php if($page_name == 'view_appointment')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_appointment" >
 
@@ -70,7 +70,7 @@
 
 		<li class="<?php if($page_name == 'view_prescription')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_prescription" >
 
@@ -88,7 +88,7 @@
 
 		<li class="<?php if($page_name == 'view_doctor')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_doctor" >
 
@@ -106,7 +106,7 @@
 
 		<li class="<?php if($page_name == 'view_blood_bank')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_blood_bank" >
 
@@ -124,7 +124,7 @@
 
 		<li class="<?php if($page_name == 'view_admit_history')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_admit_history" >
 
@@ -142,7 +142,7 @@
 
 		<li class="<?php if($page_name == 'view_operation_history')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_operation_history" >
 
@@ -160,7 +160,7 @@
 
 		<li class="<?php if($page_name == 'view_invoice')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/view_invoice" >
 
@@ -178,7 +178,7 @@
 
 		<li class="<?php if($page_name == 'payment_history')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/payment_history" >
 
@@ -196,7 +196,7 @@
 
 		<li class="<?php if($page_name == 'manage_profile')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?patient/manage_profile" >
 

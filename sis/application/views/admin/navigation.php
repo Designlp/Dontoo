@@ -16,7 +16,7 @@
 
     	<a href="<?php echo base_url();?>">
 
-        	<img src="<?php echo base_url();?>uploads/hmslg.png" />
+        	<img class="logopad"  src="<?php echo base_url();?>uploads/hmslg.png" />
 
         </a>
 
@@ -34,7 +34,7 @@
 
 		<li class="<?php if($page_name == 'dashboard')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/dashboard" >
 
@@ -52,7 +52,7 @@
 
 		<li class="<?php if($page_name == 'manage_department')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_department" >
 
@@ -70,7 +70,7 @@
 
 		<li class="<?php if($page_name == 'manage_doctor')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_doctor" >
 
@@ -88,7 +88,7 @@
 
 		<li class="<?php if($page_name == 'manage_patient')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_patient" >
 
@@ -106,7 +106,7 @@
 
 		<li class="<?php if($page_name == 'manage_nurse')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_nurse" >
 
@@ -124,7 +124,7 @@
 
 		<li class="<?php if($page_name == 'manage_pharmacist')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_pharmacist" >
 
@@ -142,7 +142,7 @@
 
 		<li class="<?php if($page_name == 'manage_laboratorist')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_laboratorist" >
 
@@ -160,7 +160,7 @@
 
 		<li class="<?php if($page_name == 'manage_accountant')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_accountant" >
 
@@ -190,7 +190,7 @@
 
 										$page_name == 'view_report'  )echo 'active';?>">
 
-			<span class="glow"></span>
+			
 
             <a class="accordion-toggle  " data-toggle="collapse" href="#view_hospital_submenu" >
 
@@ -314,7 +314,7 @@
 
 										$page_name == 'backup_restore' )echo 'active';?>">
 
-			<span class="glow"></span>
+			
 
             <a class="accordion-toggle  " data-toggle="collapse" href="#settings_submenu" >
 
@@ -396,7 +396,7 @@
 
 		<li class="<?php if($page_name == 'manage_profile')echo 'dark-nav active';?>">
 
-			<span class="glow"></span>
+			
 
 				<a href="<?php echo base_url();?>index.php?admin/manage_profile" >
 

@@ -327,7 +327,7 @@ class CI_Calendar {
 	 *
 	 * This function makes sure that we have a valid month/year.
 	 * For example, if you submit 13 as the month, the year will
-	 * increment and the month will become January.
+	 * increment and the month will become Enero.
 	 *
 	 * @access	public
 	 * @param	integer	the month

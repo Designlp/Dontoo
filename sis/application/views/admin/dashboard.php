@@ -1,4 +1,5 @@
-<div class="container-fluid padded">
+<div class="container-fluid padded adentroPa adentroPaGra">
+
 
 	<div class="row-fluid">
 
@@ -12,231 +13,88 @@
 
                 <div class="row-fluid">
 
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/manage_doctor">
-
-                        <i class="icon-user-md"></i>
-
-                        <span><?php echo ('Doctor');?></span>
-
+                    <div class="span2 action-nav-button panelInfo colorrr">
+                        <a class="darkk" href="<?php echo base_url();?>index.php?admin/manage_doctor">
+                            <span class="tituloPeque"><?php echo ('Doctor');?></span>                     
+                            <i class="icon-user-md iconPanel darkk"></i>
+                            <h4 class="green TituleNumber darkk">
+                                <?php echo $this->db->count_all_results('doctor');?>
+                            </h4>
                         </a>
-
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo colorrr">
 
-                        <a href="<?php echo base_url();?>index.php?admin/manage_patient">
+                        <a class="darkk" href="<?php echo base_url();?>index.php?admin/manage_patient">
 
-                        <i class="icon-user"></i>
+                        <span class="tituloPeque"><?php echo ('Paciente');?></span>
+                        <i class="icon-user iconPanel darkk"></i>
 
-                        <span><?php echo ('Paciente');?></span>
-
+                        <h4  class="green darkk TituleNumber">
+                                <?php echo $this->db->count_all_results('patient');?>
+                            </h4>
                         </a>
-
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo colorrr">
 
                         <a href="<?php echo base_url();?>index.php?admin/manage_nurse">
 
-                        <i class="icon-plus-sign-alt"></i>
+                        <span class="tituloPeque"><?php echo ('Enfermera');?></span>
+                        <i class="icon-plus-sign-alt iconPanel darkk"></i>
 
-                        <span><?php echo ('Enfermera');?></span>
-
+                        <h4 class="green TituleNumber darkk">
+                        <?php echo $this->db->count_all_results('nurse');?>
+                            </h4>
                         </a>
 
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo colorrr">
 
                         <a href="<?php echo base_url();?>index.php?admin/manage_pharmacist">
 
-                        <i class="icon-medkit"></i>
+                        <span class="tituloPeque"><?php echo ('Farmaceutico');?></span>
+                        <i class="icon-medkit iconPanel"></i>
 
-                        <span><?php echo ('Farmaceutico');?></span>
-
+                        <h4 class="green TituleNumber">
+                        <?php echo $this->db->count_all_results('pharmacist');?>
+                            </h4>
                         </a>
 
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo colorrr">
 
                         <a href="<?php echo base_url();?>index.php?admin/manage_laboratorist">
 
-                        <i class="icon-beaker"></i>
+                        <span class="tituloPeque"><?php echo ('Laboratorista');?></span>
+                        <i class="icon-beaker iconPanel"></i>
 
-                        <span><?php echo ('Laboratorista');?></span>
-
+                        <h4 class="green TituleNumber">
+                        <?php echo $this->db->count_all_results('laboratorist');?>
+                            </h4>
                         </a>
 
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo colorrr">
 
                         <a href="<?php echo base_url();?>index.php?admin/manage_accountant">
 
-                        <i class="icon-money"></i>
+                        <span class="tituloPeque"><?php echo ('Contador');?></span>
+                        <i class="icon-money iconPanel"></i>
 
-                        <span><?php echo ('Contador');?></span>
-
+                        <h4 class="green TituleNumber">
+                        <?php echo $this->db->count_all_results('accountant');?>
+                            </h4>
                         </a>
 
                     </div>
 
                 </div>
 
-                <div class="row-fluid">
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_appointment">
-
-                        <i class="icon-exchange"></i>
-
-                        <span><?php echo ('Citas');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_payment">
-
-                        <i class="icon-credit-card"></i>
-
-                        <span><?php echo ('Pagos');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_blood_bank">
-
-                        <i class="icon-tint"></i>
-
-                        <span><?php echo ('Banco de Sangre');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_medicine">
-
-                        <i class="icon-medkit"></i>
-
-                        <span><?php echo ('Medicamento');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_report/operation">
-
-                        <i class="icon-reorder"></i>
-
-                        <span><?php echo ('Informe de operación');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_report/birth">
-
-                        <i class="icon-github-alt"></i>
-
-                        <span><?php echo ('Informe de nacimiento');?></span>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-                <div class="row-fluid">
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_report/death">
-
-                        <i class="icon-minus-sign"></i>
-
-                        <span><?php echo ('Informe de defunción');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/view_bed_status">
-
-                        <i class="icon-hdd"></i>
-
-                        <span><?php echo ('Asignación de camas');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/manage_noticeboard">
-
-                        <i class="icon-columns"></i>
-
-                        <span><?php echo ('Anuncios');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/system_settings">
-
-                        <i class="icon-h-sign"></i>
-
-                        <span><?php echo ('Ajustes');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/manage_language">
-
-                        <i class="icon-globe"></i>
-
-                        <span><?php echo ('Lenguaje');?></span>
-
-                        </a>
-
-                    </div>
-
-                    <div class="span2 action-nav-button">
-
-                        <a href="<?php echo base_url();?>index.php?admin/backup_restore">
-
-                        <i class="icon-download-alt"></i>
-
-                        <span><?php echo ('Backup');?></span>
-
-                        </a>
-
-                    </div>
-
-                </div>
+                
 
             </div>
 
@@ -244,17 +102,23 @@
 
         <!---DASHBOARD MENU BAR ENDS HERE-->
 
-    </div>
+    </div>    
+</div>
 
-    <hr />
+
+
+
+
+    <div class="container-fluid padded adentroPa">
+
 
     <div class="row-fluid">
 
     
 
-    	<!-----CALENDAR SCHEDULE STARTS-->
+    	<!-----Citas del Calendario STARTS-->
 
-        <div class="span6">
+        <div class="span6 span87">
 
             <div class="box">
 
@@ -262,7 +126,7 @@
 
                     <div class="title">
 
-                        <i class="icon-calendar"></i> <?php echo ('Calendar Schedule');?>
+                        <i class="icon-calendar"></i> <?php echo ('Citas del Calendario');?>
 
                     </div>
 
@@ -280,7 +144,7 @@
 
         </div>
 
-    	<!-----CALENDAR SCHEDULE ENDS-->
+    	<!-----Citas del Calendario ENDS-->
 
         
 
@@ -294,7 +158,7 @@
 
                     <span class="title">
 
-                        <i class="icon-reorder"></i> <?php echo ('Noticeboard');?>
+                        <i class="icon-reorder reorderrr"></i> <?php echo ('Anuncios');?>
 
                     </span>
 
@@ -361,7 +225,168 @@
 </div>
 
 
+<div class="container-fluid padded adentroPa">
+<div class="row-fluid">
 
+<div class="span30">
+
+    <!-- find me in partials/action_nav_normal -->
+
+    <!--big normal buttons-->
+
+    <div class="action-nav-normal">
+
+<div class="row-fluid">
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_appointment">
+
+                        <i class="icon-exchange"></i>
+
+                        <span><?php echo ('Citas');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_payment">
+
+                        <i class="icon-credit-card"></i>
+
+                        <span><?php echo ('Pagos');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_blood_bank">
+
+                        <i class="icon-tint"></i>
+
+                        <span><?php echo ('Banco de Sangre');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_medicine">
+
+                        <i class="icon-medkit"></i>
+
+                        <span><?php echo ('Medicamento');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_report/operation">
+
+                        <i class="icon-reorder"></i>
+
+                        <span><?php echo ('Informe de operación');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_report/birth">
+
+                        <i class="icon-github-alt"></i>
+
+                        <span><?php echo ('Informe de nacimiento');?></span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="row-fluid">
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_report/death">
+
+                        <i class="icon-minus-sign"></i>
+
+                        <span><?php echo ('Informe de defunción');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/view_bed_status">
+
+                        <i class="icon-hdd"></i>
+
+                        <span><?php echo ('Asignación de camas');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/manage_noticeboard">
+
+                        <i class="icon-columns"></i>
+
+                        <span><?php echo ('Anuncios');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/system_settings">
+
+                        <i class="icon-h-sign"></i>
+
+                        <span><?php echo ('Ajustes');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/manage_language">
+
+                        <i class="icon-globe"></i>
+
+                        <span><?php echo ('Lenguaje');?></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo">
+
+                        <a href="<?php echo base_url();?>index.php?admin/backup_restore">
+
+                        <i class="icon-download-alt"></i>
+
+                        <span><?php echo ('Backup');?></span>
+
+                        </a>
+
+                    </div>
+
+                </div>  </div> </div>  </div>   </div>
   
 
   

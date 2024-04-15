@@ -1,4 +1,5 @@
-<div class="container-fluid padded">
+<div class="container-fluid padded adentroPa adentroPaGra">
+
 
 	<div class="row-fluid">
 
@@ -12,7 +13,114 @@
 
                 <div class="row-fluid">
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo colorrr">
+                        <a class="darkk" href="<?php echo base_url();?>index.php?admin/manage_doctor">
+                            <span class="tituloPeque"><?php echo ('Doctor');?></span>                     
+                            <i class="icon-user-md iconPanel darkk"></i>
+                            <h4 class="green TituleNumber darkk">
+                                <?php echo $this->db->count_all_results('doctor');?>
+                            </h4>
+                        </a>
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo colorrr">
+
+                        <a class="darkk" href="<?php echo base_url();?>index.php?admin/manage_patient">
+
+                        <span class="tituloPeque"><?php echo ('Paciente');?></span>
+                        <i class="icon-user iconPanel darkk"></i>
+
+                        <h4  class="green darkk TituleNumber">
+                                <?php echo $this->db->count_all_results('patient');?>
+                            </h4>
+                        </a>
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo colorrr">
+
+                        <a href="<?php echo base_url();?>index.php?admin/manage_nurse">
+
+                        <span class="tituloPeque"><?php echo ('Enfermera');?></span>
+                        <i class="icon-plus-sign-alt iconPanel darkk"></i>
+
+                        <h4 class="green TituleNumber darkk">
+                        <?php echo $this->db->count_all_results('nurse');?>
+                            </h4>
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo colorrr">
+
+                        <a href="<?php echo base_url();?>index.php?admin/manage_pharmacist">
+
+                        <span class="tituloPeque"><?php echo ('Farmaceutico');?></span>
+                        <i class="icon-medkit iconPanel"></i>
+
+                        <h4 class="green TituleNumber">
+                        <?php echo $this->db->count_all_results('pharmacist');?>
+                            </h4>
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo colorrr">
+
+                        <a href="<?php echo base_url();?>index.php?admin/manage_laboratorist">
+
+                        <span class="tituloPeque"><?php echo ('Laboratorista');?></span>
+                        <i class="icon-beaker iconPanel"></i>
+
+                        <h4 class="green TituleNumber">
+                        <?php echo $this->db->count_all_results('laboratorist');?>
+                            </h4>
+                        </a>
+
+                    </div>
+
+                    <div class="span2 action-nav-button panelInfo colorrr">
+
+                        <a href="<?php echo base_url();?>index.php?admin/manage_accountant">
+
+                        <span class="tituloPeque"><?php echo ('Contador');?></span>
+                        <i class="icon-money iconPanel"></i>
+
+                        <h4 class="green TituleNumber">
+                        <?php echo $this->db->count_all_results('accountant');?>
+                            </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+        <!---DASHBOARD MENU BAR ENDS HERE-->
+
+    </div>    
+</div>
+
+
+<div class="container-fluid padded adentroPa">
+
+	<div class="row-fluid">
+
+        <div class="span30">
+
+            <!-- find me in partials/action_nav_normal -->
+
+            <!--big normal buttons-->
+
+            <div class="action-nav-normal">
+
+                <div class="row-fluid">
+
+                    <div class="span2 action-nav-button panelInfo">
 
                         <a href="<?php echo base_url();?>index.php?nurse/manage_patient">
 
@@ -24,7 +132,7 @@
 
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo">
 
                         <a href="<?php echo base_url();?>index.php?nurse/manage_bed_allotment">
 
@@ -36,7 +144,7 @@
 
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo">
 
                         <a href="<?php echo base_url();?>index.php?nurse/manage_blood_donor">
 
@@ -48,7 +156,7 @@
 
                     </div>
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button panelInfo">
 
                         <a href="<?php echo base_url();?>index.php?nurse/manage_report">
 
@@ -68,17 +176,17 @@
 
         <!---DASHBOARD MENU BAR ENDS HERE-->
 
-    </div>
+    </div> </div>
 
-    <hr />
+    <div class="container-fluid padded adentroPa">
 
     <div class="row-fluid">
 
     
 
-    	<!-----CALENDAR SCHEDULE STARTS-->
+    	<!-----Citas del Calendario STARTS-->
 
-        <div class="span6">
+        <div class="span6 span87">
 
             <div class="box">
 
@@ -86,7 +194,7 @@
 
                     <div class="title">
 
-                        <i class="icon-calendar"></i> <?php echo ('Calendar Schedule');?>
+                        <i class="icon-calendar"></i> <?php echo ('Citas del Calendario');?>
 
                     </div>
 
@@ -104,7 +212,7 @@
 
         </div>
 
-    	<!-----CALENDAR SCHEDULE ENDS-->
+    	<!-----Citas del Calendario ENDS-->
 
         
 
@@ -118,7 +226,7 @@
 
                     <span class="title">
 
-                        <i class="icon-reorder"></i> <?php echo ('Noticeboard');?>
+                        <i class="icon-reorder reorderrr"></i> <?php echo ('Anuncios');?>
 
                     </span>
 

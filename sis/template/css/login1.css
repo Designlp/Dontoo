@@ -21,7 +21,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background: #243ffa;
+  background: #3E36B0;
 }
 
 #back {
@@ -114,7 +114,7 @@ input {
   border-bottom: 1px solid #212121;
 }
 .right input:focus, .right input:active {
-  border-color: #243ffa;
+  border-color: #3E36B0;
 }
 .right input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #f9f9f9 inset;
@@ -142,7 +142,7 @@ input {
 }
 
 .right .content h2 {
-  color: #243ffa;
+  color: #3E36B0;
 }
 
 .form-element {
@@ -220,7 +220,7 @@ button.signup {
   background: #03A9F4;
 }
 button.login {
-  background: #243ffa;
+  background: #3E36B0;
 }
 button.off {
   background: none;
@@ -231,7 +231,7 @@ button.off.signup {
   color: #03A9F4;
 }
 button.off.login {
-  color: #243ffa;
+  color: #3E36B0;
 }
 
 button:focus, button:active, button:hover {
@@ -281,6 +281,7 @@ button:focus.off.login, button:active.off.login, button:hover.off.login {
   -webkit-appearance: button;
   appearance: button;
   outline: none;
+  border-radius: 10px;
 }
 
 .box::before {

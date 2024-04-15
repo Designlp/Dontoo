@@ -1,4 +1,4 @@
-<div class="container-fluid padded adentroPa adentroPaGra">
+<div class="container-fluid padded adentroPa adentroPa adentroPaGra">
 
 
 	<div class="row-fluid">
@@ -106,7 +106,7 @@
 </div>
 
 
-<div class="container-fluid padded adentroPa">
+<div class="container-fluid padded adentroPa adentroPa">
 
 	<div class="row-fluid">
 
@@ -178,7 +178,7 @@
 
     </div> </div>
 
-    <div class="container-fluid padded adentroPa">
+    <div class="container-fluid padded adentroPa adentroPa">
 
     <div class="row-fluid">
 
@@ -190,7 +190,7 @@
 
             <div class="box">
 
-                <div class="box-header">
+                <div class="box-header boxHeaderCalendar">
 
                     <div class="title">
 
@@ -222,7 +222,7 @@
 
             <div class="box">
 
-                <div class="box-header">
+                <div class="box-header boxHeaderCalendar">
 
                     <span class="title">
 

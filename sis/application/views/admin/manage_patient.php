@@ -8,7 +8,7 @@
         	<?php if(isset($edit_profile)):?>
 			<li class="active">
             	<a href="#edit" data-toggle="tab"><i class="icon-wrench"></i> 
-					<?php echo ('Edit Patient');?>
+					<?php echo ('Editar Paciente');?>
                     	</a></li>
             <?php endif;?>
 			<li class="<?php if(!isset($edit_profile))echo 'active';?>">
@@ -169,7 +169,7 @@
 
                         <div class="form-actions">
 
-                            <button type="submit" class="btn btn-primary"><?php echo ('Edit Patient');?></button>
+                            <button type="submit" class="btn btn-primary"><?php echo ('Editar Paciente');?></button>
 
                         </div>
 

@@ -103,7 +103,7 @@
         <!--------FLASH MESSAGES--->
         
 		<!--<?php if($this->session->flashdata('flash_message') != ""):?>
-        <div class="container-fluid padded">
+        <div class="container-fluid padded adentroPa">
         	<div class="alert alert-info">
               <button type="button" class="close" data-dismiss="alert">×</button>
               <?php echo $this->session->flashdata('flash_message');?>

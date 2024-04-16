@@ -222,6 +222,10 @@ button.signup {
 button.login {
   background: #3E36B0;
 }
+
+button.login:hover{
+  cursor: pointer;
+}
 button.off {
   background: none;
   box-shadow: none;

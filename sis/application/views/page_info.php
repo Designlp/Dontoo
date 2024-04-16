@@ -49,11 +49,12 @@
 
     <!-- Account Selector -->
 
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu dropPerfil">
 
+        <li src="<?php echo base_url();?>uploads/doctor.png" whith="100px"></li>
         <li class="with-image">
 
-            <span>
+            <span class="balcno">
 
             <?php 
 
@@ -71,15 +72,14 @@
 
         </li>
 
-        <li class="divider"></li>
 
-        <li><a href="<?php echo base_url();?>index.php?<?php echo $this->session->userdata('login_type');?>/manage_profile">
+        <li><a class="balcno" href="<?php echo base_url();?>index.php?<?php echo $this->session->userdata('login_type');?>/manage_profile">
 
-                <i class="icon-user"></i><span><?php echo ('Perfil');?></span></a></li>
+                <i class="icon-user balcno"></i><span><?php echo ('Perfil');?></span></a></li>
 
-        <li><a href="<?php echo base_url();?>index.php?login/logout">
+        <li><a class="balcno" href="<?php echo base_url();?>index.php?login/logout">
 
-                <i class="icon-off"></i><span><?php echo ('Cerrar Sesion');?></span></a></li>
+                <i class="icon-off balcno"></i><span><?php echo ('Cerrar Sesion');?></span></a></li>
 
     </ul>
 

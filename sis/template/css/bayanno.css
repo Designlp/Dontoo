@@ -1894,9 +1894,6 @@ select:focus:invalid:focus {
 
   margin-bottom: 20px;
 
-  background-color: whitesmoke;
-
-  border-top: 1px solid #e5e5e5;
 
   *zoom: 1;
 }
@@ -3340,7 +3337,7 @@ table th[class*="span"],
 
   padding: 5px 0;
 
-  margin: 2px -60px 0;
+  margin: 10px -61px 0;
 
   list-style: none;
 
@@ -14225,14 +14222,17 @@ label {
 
 .primary-sidebar {
   width: 240px;
-
   float: left;
-
   position: fixed;
-
-  /*	background-color: #11161A;
-*/
 }
+
+
+@media screen and (max-height: 800px){
+  .primary-sidebar {
+    position: absolute;
+  }
+}
+
 
 .primary-sidebar .nav {
   margin-bottom: 20px;
@@ -25333,4 +25333,45 @@ a.editable-click.editable-disabled:hover {
   margin-top: 0px !important;
   margin-right: 0px !important;
   background: var(--primary) !important;
+}
+
+.balcno{
+  color: #1e1e1e !important;
+  
+}
+.dropPerfil{
+  border-radius: 10px;
+  background: #fff !important;
+  padding: 20px 15px 20px 15px !important;
+  color: #fff !important;
+  border: none !important;
+
+}
+
+.dropPerfil >li >a{
+  font-size: 16px;
+  padding: 10px 20px !important;
+}
+
+.tab-pane{
+  margin-top: 20px;
+}
+
+
+@media (max-width: 1200px) {
+  .title .calendario{
+    display: none;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .fc table {
+    font-size: 12px;
+
+  }
+
+  .title .icon-calendar{
+    display: none;
+  }
 }

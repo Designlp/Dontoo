@@ -54,12 +54,12 @@
                                 
                                 </div>
                                 <div class="form-element form-stack">
-                                    <label for="username-login" class="form-label">Username</label>
-                                    <input id="username-login" name="email" type="text" placeholder="<?php echo ('Correo Electronico');?>">
+                                    <label for="username-login" class="form-label">Usuario</label>
+                                    <input id="username-login" name="email" type="text" placeholder="<?php echo ('Ingresa tu correo electronico');?>">
                                 </div>
                                 <div class="form-element form-stack">
-                                    <label for="password-login" class="form-label">Password</label>
-                                    <input id="password-login" name="password" type="password" placeholder="<?php echo ('Contraseña');?>">
+                                    <label for="password-login" class="form-label">Contraseña</label>
+                                    <input id="password-login" name="password" type="password" placeholder="<?php echo ('Ingresa tu contraseña<');?>">
                                 </div>
                                 <div class="form-element form-submit form__field">
                                     <button type="submit" class="login">

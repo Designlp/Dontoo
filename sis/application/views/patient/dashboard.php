@@ -222,7 +222,10 @@
 
                     <div class="title">
 
-                        <i class="icon-calendar"></i> <?php echo ('Citas del Calendario');?>
+                        <i class="icon-calendar"></i>               <span class="calendario">
+                        <?php echo ('Citas del Calendario');?>
+                        </span> 
+
 
                     </div>
 
